@@ -293,3 +293,4 @@ The application demonstrates expertise in full-stack development, security engin
 ---
 
 **Technology Stack:** Go • React.js • MinIO • Redis • Docker • AES-256-GCM Encryption
+
