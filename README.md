@@ -14,28 +14,28 @@
   <img width="85%" alt="Image" src="https://github.com/user-attachments/assets/67bcc5b4-2916-4b38-b9a9-32d6f9489aeb" />
 </div>
 
-**FilePin** is a comprehensive secure file sharing web application built with Go and React, representing a modern approach to secure data transfer and file management. The application embodies the philosophy of "Secure by Design, Simple by Nature" through its robust encryption architecture, intuitive user interface, and enterprise-grade security features.
+**FilePin** is a comprehensive secure file sharing web application built with Go and React, representing a modern approach to secure data transfer and file management. The application embodies the philosophy of "Secure by Design, Simple by Nature" through its robust encryption architecture, intuitive user interface and enterprise-grade security features.
 
-The development process followed carefully planned security-first iterations, progressing from encryption foundations to advanced features like time-limited sharing and download restrictions. The result is a production-ready application that showcases modern secure web development capabilities while solving real-world data sharing challenges.
+The development process followed carefully planned security first iterations, progressing from encryption foundations to advanced features like time limited sharing and download restrictions. The result is a production ready application that showcases modern secure web development capabilities while solving real world data sharing challenges.
 
 ## Key Features & Functionality
 
 ### File Management Capabilities
-Core functionality centers around secure file operations with comprehensive upload, download, and lifecycle management features.
+Core functionality centers around secure file operations with comprehensive upload, download and lifecycle management features.
 
 <div align="center">
   <img width="50%" alt="Image" src="https://github.com/user-attachments/assets/84055582-1137-4bb3-93a3-b8ffdb187064" />
 </div>
 
 **Comprehensive File Features:**
-- **Secure File Upload** - Multi-format file support with encryption and metadata tracking
+- **Secure File Upload** - Multi format file support with encryption and metadata tracking
 - **Flexible Download Options** - Public link generation with embedded access controls
 - **File Lifecycle Management** - Automated cleanup, expiration handling, and storage optimization
 - **Access Analytics** - Detailed download tracking, usage statistics, and audit logs
 - **File Integrity Verification** - Checksum validation and corruption detection
   
 ### Security-First Design
-The application provides enterprise-grade security features with end-to-end encryption, secure key management, and comprehensive access controls. All files undergo encryption before storage using industry-standard cryptographic algorithms.
+The application provides enterprise grade security features with end-to-end encryption, secure key management, and comprehensive access controls. All files undergo encryption before storage using industry standard cryptographic algorithms.
 
 <div align="center">
   <img width="50%" alt="Image" src="https://github.com/user-attachments/assets/cc51c103-556a-4de3-9a63-31101f8d211d" />
@@ -53,7 +53,7 @@ The application provides enterprise-grade security features with end-to-end encr
 **Intelligent Sharing System:**
 - **Time-based Expiration** - Configurable file lifetime with granular time controls
 - **Download Limiting** - Precise download count restrictions per file
-- **One-time Access** - Single-use download links with immediate cleanup
+- **One-time Access** - Single use download links with immediate cleanup
 - **Public Link Generation** - Secure shareable URLs with embedded access tokens
 - **Access Logging** - Comprehensive download tracking and security audit trails
 
@@ -70,46 +70,46 @@ The application implements multiple layers of security to ensure comprehensive d
 
 ### Performance Optimization
 **Performance Enhancement Features:**
-- **Redis Caching Layer** - High-performance metadata retrieval with intelligent cache invalidation
+- **Redis Caching Layer** - High performance metadata retrieval with intelligent cache invalidation
 - **MinIO Object Storage** - Scalable and high-performance distributed file storage
-- **Gin Framework Optimization** - High-throughput HTTP server with efficient routing
-- **Efficient File Streaming** - Memory-optimized download performance for large files
+- **Gin Framework Optimization** - High throughput HTTP server with efficient routing
+- **Efficient File Streaming** - Memory optimized download performance for large files
 - **Background Processing** - Non-blocking file operations with asynchronous processing
 
 ### Scalability & Infrastructure
 **Infrastructure & Scalability Features:**
 - **Docker Containerization** - Consistent deployment across environments
-- **Docker Compose Orchestration** - Multi-service application management
+- **Docker Compose Orchestration** - Multi service application management
 - **Microservices Architecture** - Independent service scaling and deployment flexibility
-- **Cloud-Ready Design** - Platform-agnostic design suitable for major cloud providers
+- **Cloud-Ready Design** - Platform agnostic design suitable for major cloud providers
 - **Health Check Endpoints** - Comprehensive system monitoring integration
 
 ## Technical Architecture
 
 ### Backend Implementation
-The server-side architecture leverages **Go 1.24** with **Gin Web Framework** to create a high-performance RESTful API. File storage utilizes **MinIO** S3-compatible object storage for scalable file management, integrated with **Redis** for fast metadata caching. The encryption system implements industry-standard **AES-256-GCM** for comprehensive file protection.
+The server side architecture leverages **Go 1.24** with **Gin Web Framework** to create a high-performance RESTful API. File storage utilizes **MinIO** S3 compatible object storage for scalable file management, integrated with **Redis** for fast metadata caching. The encryption system implements industry standard **AES-256-GCM** for comprehensive file protection.
 
 **Core Backend Technologies:**
 - **Go 1.24** - Latest Go with modern language features and performance optimizations
-- **Gin Web Framework 1.9.1** - High-performance HTTP web framework with middleware support
-- **MinIO Client 7.0.63** - Enterprise-grade S3-compatible object storage integration
+- **Gin Web Framework 1.9.1** - High performance HTTP web framework with middleware support
+- **MinIO Client 7.0.63** - Enterprise-grade S3 compatible object storage integration
 <div align="center">
   <img width="50%" alt="Image" src="https://github.com/user-attachments/assets/ea890ee1-15fe-47c1-acd8-c0ecbf8f4448" />
 </div>
 
-- **Redis Client 9.11.0** - High-performance in-memory caching and metadata storage
+- **Redis Client 9.11.0** - High performance in memory caching and metadata storage
 - **Clean Architecture** - Layered design pattern: handlers → services → repository → storage
-- **Comprehensive Middleware** - CORS, logging, recovery, and request validation
+- **Comprehensive Middleware** - CORS, logging, recovery and request validation
 
 ### Frontend Development
-The client-side application utilizes **React.js 18.2** with modern functional components and hooks API for efficient state management. **Axios** provides robust HTTP communication with comprehensive error handling. **React Dropzone** enables professional drag-and-drop file upload functionality.
+The client side application utilizes **React.js 18.2** with modern functional components and hooks API for efficient state management. **Axios** provides robust HTTP communication with comprehensive error handling. **React Dropzone** enables professional drag and drop file upload functionality.
 
 **Frontend Technology Stack:**
 - **React 18.2.0** - Latest React with concurrent features and modern component architecture
-- **React Hooks** - Advanced state management with useState, useEffect, and custom hooks
-- **Axios 1.5.0** - Enterprise-grade HTTP client with request/response interceptors
-- **React Dropzone 14.2.3** - Professional drag-and-drop file upload with validation
-- **Responsive CSS** - Modern CSS Grid and Flexbox with mobile-first design
+- **React Hooks** - Advanced state management with useState, useEffect and custom hooks
+- **Axios 1.5.0** - Enterprise grade HTTP client with request/response interceptors
+- **React Dropzone 14.2.3** - Professional drag and drop file upload with validation
+- **Responsive CSS** - Modern CSS Grid and Flexbox with mobile first design
 - **Comprehensive Error Handling** - User-friendly error messages and loading states
 
 ## API Documentation
@@ -198,7 +198,7 @@ filepin/
 │   │   ├── services/api.js       # API communication layer
 │   │   └── App.jsx               # Main React component
 │   └── package.json              # Frontend dependencies
-├── docker-compose.yml            # Multi-container deployment
+├── docker-compose.yml            # Multi container deployment
 ├── Dockerfile.backend            # Backend container configuration
 └── Dockerfile.frontend           # Frontend container configuration
 ```
@@ -260,7 +260,7 @@ npm start
 - Automatic cleanup removes expired files and associated metadata
 
 ### Access Control
-- Time-based file expiration prevents indefinite access to shared files
+- Time based file expiration prevents indefinite access to shared files
 - Download limits provide granular control over file distribution
 - One-time download links provide maximum security for sensitive documents
 - Public links contain embedded access tokens for secure sharing
@@ -286,11 +286,12 @@ docker-compose up -d
 
 ## Conclusion
 
-FilePin represents a comprehensive demonstration of modern secure application development, showcasing advanced proficiency in Go and React technologies while implementing industry-standard security practices. The project exemplifies the ability to deliver production-quality applications that balance robust security with exceptional user experience.
+FilePin represents a comprehensive demonstration of modern secure application development, showcasing advanced proficiency in Go and React technologies while implementing industry standard security practices. The project exemplifies the ability to deliver production-quality applications that balance robust security with exceptional user experience.
 
-The application demonstrates expertise in full-stack development, security engineering, and modern DevOps practices, suitable for enterprise environments requiring secure data handling and scalable architecture design.
+The application demonstrates expertise in full stack development, security engineering and modern DevOps practices, suitable for enterprise environments requiring secure data handling and scalable architecture design.
 
 ---
 
 **Technology Stack:** Go • React.js • MinIO • Redis • Docker • AES-256-GCM Encryption
+
 
