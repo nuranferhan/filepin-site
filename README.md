@@ -14,7 +14,7 @@
   <img width="85%" alt="Image" src="https://github.com/user-attachments/assets/67bcc5b4-2916-4b38-b9a9-32d6f9489aeb" />
 </div>
 
-**FilePin** is a comprehensive secure file sharing web application built with Go and React, representing a modern approach to secure data transfer and file management. The application embodies the philosophy of "Secure by Design, Simple by Nature" through its robust encryption architecture, intuitive user interface and enterprise-grade security features.
+**FilePin** is a comprehensive secure file sharing web application built with Go and React, representing a modern approach to secure data transfer and file management. The application embodies the philosophy of "Secure by Design, Simple by Nature" through its robust encryption architecture, intuitive user interface and enterprise grade security features.
 
 The development process followed carefully planned security first iterations, progressing from encryption foundations to advanced features like time limited sharing and download restrictions. The result is a production ready application that showcases modern secure web development capabilities while solving real world data sharing challenges.
 
@@ -30,23 +30,23 @@ Core functionality centers around secure file operations with comprehensive uplo
 **Comprehensive File Features:**
 - **Secure File Upload** - Multi format file support with encryption and metadata tracking
 - **Flexible Download Options** - Public link generation with embedded access controls
-- **File Lifecycle Management** - Automated cleanup, expiration handling, and storage optimization
-- **Access Analytics** - Detailed download tracking, usage statistics, and audit logs
+- **File Lifecycle Management** - Automated cleanup, expiration handling and storage optimization
+- **Access Analytics** - Detailed download tracking, usage statistics and audit logs
 - **File Integrity Verification** - Checksum validation and corruption detection
   
-### Security-First Design
-The application provides enterprise grade security features with end-to-end encryption, secure key management, and comprehensive access controls. All files undergo encryption before storage using industry standard cryptographic algorithms.
+### Security First Design
+The application provides enterprise grade security features with end to end encryption, secure key management and comprehensive access controls. All files undergo encryption before storage using industry standard cryptographic algorithms.
 
 <div align="center">
   <img width="50%" alt="Image" src="https://github.com/user-attachments/assets/cc51c103-556a-4de3-9a63-31101f8d211d" />
 </div>
 
 **Advanced Security Features:**
-- **End-to-End Encryption** - AES-256-GCM encryption with authenticated encryption
-- **Secure Key Management** - Environment-based encryption key storage
-- **Time-Limited Sharing** - Configurable automatic file expiration and secure cleanup
+- **End to End Encryption** - AES-256-GCM encryption with authenticated encryption
+- **Secure Key Management** - Environment based encryption key storage
+- **Time Limited Sharing** - Configurable automatic file expiration and secure cleanup
 - **Download Restrictions** - Granular maximum download limits with usage tracking
-- **One-Time Downloads** - Self-destructing file links with automatic cleanup
+- **One Time Downloads** - Self-destructing file links with automatic cleanup
 - **Metadata Protection** - Encrypted file metadata storage with integrity verification
 
 ### Advanced Sharing Controls
@@ -62,7 +62,7 @@ The application provides enterprise grade security features with end-to-end encr
 ### Encryption & Security Implementation
 The application implements multiple layers of security to ensure comprehensive data protection and regulatory compliance.
 **Security Implementation Details:**
-- **AES-256-GCM Encryption** - Industry-standard symmetric encryption with authenticated encryption
+- **AES-256-GCM Encryption** - Industry standard symmetric encryption with authenticated encryption
 - **Secure Random Key Generation** - Cryptographically secure key management
 - **Input Validation & Sanitization** - Comprehensive prevention of injection attacks and XSS
 - **CORS Policy Configuration** - Secure cross-origin request handling
@@ -81,18 +81,18 @@ The application implements multiple layers of security to ensure comprehensive d
 - **Docker Containerization** - Consistent deployment across environments
 - **Docker Compose Orchestration** - Multi service application management
 - **Microservices Architecture** - Independent service scaling and deployment flexibility
-- **Cloud-Ready Design** - Platform agnostic design suitable for major cloud providers
+- **Cloud Ready Design** - Platform agnostic design suitable for major cloud providers
 - **Health Check Endpoints** - Comprehensive system monitoring integration
 
 ## Technical Architecture
 
 ### Backend Implementation
-The server side architecture leverages **Go 1.24** with **Gin Web Framework** to create a high-performance RESTful API. File storage utilizes **MinIO** S3 compatible object storage for scalable file management, integrated with **Redis** for fast metadata caching. The encryption system implements industry standard **AES-256-GCM** for comprehensive file protection.
+The server side architecture leverages **Go 1.24** with **Gin Web Framework** to create a high performance RESTful API. File storage utilizes **MinIO** S3 compatible object storage for scalable file management, integrated with **Redis** for fast metadata caching. The encryption system implements industry standard **AES-256-GCM** for comprehensive file protection.
 
 **Core Backend Technologies:**
 - **Go 1.24** - Latest Go with modern language features and performance optimizations
 - **Gin Web Framework 1.9.1** - High performance HTTP web framework with middleware support
-- **MinIO Client 7.0.63** - Enterprise-grade S3 compatible object storage integration
+- **MinIO Client 7.0.63** - Enterprise grade S3 compatible object storage integration
 <div align="center">
   <img width="50%" alt="Image" src="https://github.com/user-attachments/assets/ea890ee1-15fe-47c1-acd8-c0ecbf8f4448" />
 </div>
@@ -262,7 +262,7 @@ npm start
 ### Access Control
 - Time based file expiration prevents indefinite access to shared files
 - Download limits provide granular control over file distribution
-- One-time download links provide maximum security for sensitive documents
+- One time download links provide maximum security for sensitive documents
 - Public links contain embedded access tokens for secure sharing
 
 ## Deployment & Production
@@ -286,12 +286,17 @@ docker-compose up -d
 
 ## Conclusion
 
-FilePin represents a comprehensive demonstration of modern secure application development, showcasing advanced proficiency in Go and React technologies while implementing industry standard security practices. The project exemplifies the ability to deliver production-quality applications that balance robust security with exceptional user experience.
+FilePin represents a comprehensive demonstration of modern secure application development, showcasing advanced proficiency in Go and React technologies while implementing industry standard security practices. The project exemplifies the ability to deliver production quality applications that balance robust security with exceptional user experience.
 
 The application demonstrates expertise in full stack development, security engineering and modern DevOps practices, suitable for enterprise environments requiring secure data handling and scalable architecture design.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 **Technology Stack:** Go • React.js • MinIO • Redis • Docker • AES-256-GCM Encryption
+
 
 
